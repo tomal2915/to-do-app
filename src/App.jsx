@@ -3,10 +3,12 @@ import Footer from "./component/Footer/Footer";
 import Header from "./component/Header/Header";
 import Navbar from "./component/Navbar/Navbar";
 import TodoList from "./component/TodoList/TodoList";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 
 function App() {
   return (
-    <>
+    <Provider store={store}>
       <div className="grid place-items-center bg-blue-100 h-screen px-6 font-sans">
         <Navbar />
         <div className="w-full max-w-3xl shadow-lg rounded-lg p-6 bg-white">
@@ -17,7 +19,7 @@ function App() {
           <Footer />
         </div>
       </div>
-    </>
+    </Provider>
   );
 }
 

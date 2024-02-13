@@ -10,7 +10,7 @@ import {
 export const added = (todoText) => {
   return {
     type: ADDED,
-    payloas: todoText,
+    payload: todoText,
   };
 };
 
@@ -29,7 +29,7 @@ export const clearcompleted = () => {
 export const colorselected = (todoId, color) => {
   return {
     type: COLORSELECTED,
-    payloas: {
+    payload: {
       todoId,
       color,
     },
@@ -39,13 +39,13 @@ export const colorselected = (todoId, color) => {
 export const deleted = (todoId) => {
   return {
     type: DELETED,
-    payloas: todoId,
+    payload: todoId,
   };
 };
 
 export const toggled = (todoId) => {
   return {
     type: TOGGLED,
-    payloas: todoId,
+    payload: todoId,
   };
 };

@@ -1,4 +1,4 @@
-import { initialState } from "./initialState";
+import initialState from "./initialState.js";
 import {
   ADDED,
   ALLCOMPLETED,
@@ -65,4 +65,5 @@ const reducer = (state = initialState, action) => {
       return state;
   }
 };
+
 export default reducer;
