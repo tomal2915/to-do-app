@@ -38,6 +38,6 @@ Users can filter todo tasks based on different criteria:
 - React
 - Redux
 
-## Credits
+## Live Demo
 
-This application was created by [Your Name].
+Check out the live demo [here](https://illustrious-gingersnap-cd4c2e.netlify.app/).
