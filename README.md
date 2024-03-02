@@ -1,4 +1,7 @@
 # Todo Task Application
+## Live Demo
+
+Check out the live demo [here](https://illustrious-gingersnap-cd4c2e.netlify.app/).
 
 This is a simple todo task application built using React and Redux. It allows users to manage their todo tasks efficiently.
 
@@ -38,6 +41,4 @@ Users can filter todo tasks based on different criteria:
 - React
 - Redux
 
-## Live Demo
 
-Check out the live demo [here](https://illustrious-gingersnap-cd4c2e.netlify.app/).
